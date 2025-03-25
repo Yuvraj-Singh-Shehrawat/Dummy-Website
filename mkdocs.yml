@@ -2,3 +2,8 @@ site_name: My Docs
 site_url: http://sitename.example
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: red
+    accent: deep purple
+    
