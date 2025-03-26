@@ -1,6 +1,12 @@
-site_name: My Docs
+site_name: SmartQna Workflow
 site_url: http://sitename.example
 theme:
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.tabs.link
+    - content.code.annotate
+    - content.tooltips
   logo: assets/smartqna.jpg
   font:
     text: Merriweather Sans
@@ -22,5 +28,35 @@ theme:
         name: Light mode
       primary: blue
       accent: green
+  
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
-    
+
+extra_css:
+  - stylesheets/custom.css
+
+
+
+nav:
+  - Home: index.md
+  - Professor Workflow:
+      - Overview: professor_workflow/overview.md
+      - Managing Courses: professor_workflow/courses.md
+      - Student Management: professor_workflow/students.md
+      - Exam Management: professor_workflow/exams.md
+      - Evaluation Process: professor_workflow/evaluation.md
