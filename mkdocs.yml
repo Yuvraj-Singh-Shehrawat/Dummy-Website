@@ -1,10 +1,26 @@
 site_name: My Docs
 site_url: http://sitename.example
 theme:
+  logo: assets/smartqna.jpg
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
   name: material
   palette:
-    scheme: slate
-    primary: orange
-    accent: blue grey
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: deep purple
+      accent: green
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: green
 
     
