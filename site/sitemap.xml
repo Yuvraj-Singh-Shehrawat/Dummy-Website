@@ -4,4 +4,24 @@
          <loc>http://sitename.example/</loc>
          <lastmod>2025-03-26</lastmod>
     </url>
+    <url>
+         <loc>http://sitename.example/professor_workflow/courses/</loc>
+         <lastmod>2025-03-26</lastmod>
+    </url>
+    <url>
+         <loc>http://sitename.example/professor_workflow/evaluation/</loc>
+         <lastmod>2025-03-26</lastmod>
+    </url>
+    <url>
+         <loc>http://sitename.example/professor_workflow/exams/</loc>
+         <lastmod>2025-03-26</lastmod>
+    </url>
+    <url>
+         <loc>http://sitename.example/professor_workflow/overview/</loc>
+         <lastmod>2025-03-26</lastmod>
+    </url>
+    <url>
+         <loc>http://sitename.example/professor_workflow/students/</loc>
+         <lastmod>2025-03-26</lastmod>
+    </url>
 </urlset>
